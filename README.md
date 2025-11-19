@@ -18,3 +18,13 @@ Use Logistic Regression to classify tumors as **malignant (0)** or **benign (1)*
 ### 🧠 Model Performance
 - **Accuracy:** 0.9737  
 - **Confusion Matrix:**
+- **Classification Report:**  
+Precision, Recall, F1-score all above **0.95**
+
+### 📂 Files Included
+- `Task4_LogisticRegression.ipynb` – Main notebook  
+- `outputs/breast_cancer_processed.csv` – Saved preprocessed dataset  
+
+### ✔ Conclusion
+Logistic Regression achieved **97% accuracy**, proving it is highly effective for binary medical classification tasks.
+
