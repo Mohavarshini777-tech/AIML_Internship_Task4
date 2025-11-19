@@ -1,70 +1,20 @@
-# AI & ML Internship – Task 1  
-## Data Cleaning & Preprocessing – Titanic Dataset
+# AIML Internship – Task 4
+## Logistic Regression – Breast Cancer Classification
 
-This project is part of the **Elevate Labs AI & ML Internship**.  
-Task 1 focuses on **data cleaning, handling missing values, encoding, feature scaling, and outlier detection** using the Titanic dataset.
+### 📌 Objective
+Use Logistic Regression to classify tumors as **malignant (0)** or **benign (1)** using the Breast Cancer Wisconsin dataset.
 
----
+### 📊 Steps Completed
+- Loaded Breast Cancer Dataset from sklearn
+- Performed dataset exploration (shape, missing values, summary)
+- Split data into features (X) and target (y)
+- Applied StandardScaler for normalization
+- Trained a Logistic Regression model
+- Evaluated the model using:
+  - Accuracy
+  - Confusion Matrix
+  - Classification Report
 
-## 📌 Objectives
-- Import and explore the dataset  
-- Handle missing data  
-- Encode categorical variables  
-- Detect and remove outliers  
-- Scale numerical features  
-- Save the cleaned dataset  
-
----
-
-## 🛠️ Tools Used
-- Python  
-- Jupyter Notebook  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-learn  
-
----
-
-## 📊 Steps Performed
-
-### 1. Load and inspect dataset  
-Checked:
-- shape  
-- data types  
-- missing values  
-- statistical summary  
-
-### 2. Missing value handling  
-- Filled `Age` and `Fare` using median  
-- Filled `Embarked` using mode  
-- Dropped `Cabin` due to many missing entries  
-
-### 3. Categorical Encoding  
-- `Sex` → Label Encoding (0/1)  
-- `Embarked` → One-Hot Encoding  
-
-### 4. Outlier Detection  
-Used boxplots for `Age` and `Fare`.
-
-### 5. Outlier Removal  
-Applied the **IQR method** for:
-- Age  
-- Fare  
-
-### 6. Feature Scaling  
-Standardized:
-- Age  
-- Fare  
-- Pclass  
-- SibSp  
-- Parch  
-
-### 7. Saved Cleaned Dataset  
-Saved at:  
-`outputs/cleaned_titanic.csv`
-
----
-
-## 📁 Project Structure
+### 🧠 Model Performance
+- **Accuracy:** 0.9737  
+- **Confusion Matrix:**
